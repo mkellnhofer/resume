@@ -1,0 +1,12 @@
+language: English
+strings:
+  pictureAlt: Profile Picture
+  linkEmailAlt: Email
+  linkAddressAlt: Address
+  introHeading: Personal Profile
+  skillsHeading: Technical Skills
+  skillsNoteColor: "Color: see work experience/education, grey: self education"
+  skillsNoteScale: "Scale: 25%: basic skills, 50%: advanced knowledge, 75%: profound knowledge, 100%: expert"
+  workHeading: Work Experience
+  educationHeading: Education
+  timeNow: now

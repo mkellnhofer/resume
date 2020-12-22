@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{{.Res.Basics.Name}}</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="lang-selector">
+      {{range .AltLngs -}}
+      {{if eq .IsDefault true -}}
+      <a href="index.html"><img src="flag/{{.Code}}.svg" alt="{{.Name}}"></a>
+      {{else -}}
+      <a href="index-{{.Code}}.html"><img src="flag/{{.Code}}.svg" alt="{{.Name}}"></a>
+      {{end -}}
+      {{end -}}
+    </div>
+    <div class="header">
+      <div class="header-profile-picture">
+        <img src="profile-picture.png" alt="{{index $.Strs "pictureAlt"}}">
+      </div>
+      <div>
+        <div class="header-title">
+          <h1>{{.Res.Basics.Name}}</h1>
+          <h2>{{.Res.Basics.Title}}</h2>
+        </div>
+        <ul class="header-links">
+          {{range .Res.Basics.Links -}}
+          <li>
+            {{if eq .Type "email" -}}
+            <img src="ico/email.svg" alt="{{index $.Strs "linkEmailAlt"}}">
+            <a href="mailto:{{.Text}}">{{.Text}}</a>
+            {{else if eq .Type "address" -}}
+            <img src="ico/address.svg" alt="{{index $.Strs "linkAddressAlt"}}">
+            <span>{{.Text}}</span>
+            {{else -}}
+            <img src="ico/{{.Icon}}.svg" alt="{{.Text}}">
+            <a href="{{.URL}}">{{.URL}}</a>
+            {{end -}}
+          </li>
+          {{end -}}
+        </ul>
+      </div>
+    </div>
+    <div class="main">
+      <div class="section intro">
+        <div class="section-header">
+          <h2>{{index $.Strs "introHeading"}}</h2>
+        </div>
+        <div class="section-hr"></div>
+        <div class="section-content">
+          <p>{{.Res.Intro}}</p>
+        </div>
+      </div>
+      <div class="section skills">
+        <div class="section-header">
+          <h2>{{index $.Strs "skillsHeading"}}</h2>
+        </div>
+        <div class="section-hr"></div>
+        <div class="section-content">
+          <div class="skills-major">
+            {{range .Res.Skills.Major -}}
+            <div>
+              <div>
+                <span>{{.Name}}</span>
+                {{range .Refs -}}
+                <span class="skill-ref" value="{{.}}"></span>
+                {{end -}}
+              </div>
+              <div class="skill-progress" value="{{.Progress}}"></div>
+            </div>
+            {{end -}}
+          </div>
+          <div class="skills-minor">
+            <p>
+              {{range .Res.Skills.Minor -}}
+              <span>
+                <span>{{.Name}}</span>
+                {{range .Refs -}}
+                <span class="skill-ref" value="{{.}}"></span>
+                {{end -}}
+              </span>
+              {{end -}}
+            </p>
+          </div>
+          <div class="skills-notes">
+            <ul>
+              <li>{{index $.Strs "skillsNoteColor"}}</li>
+              <li>{{index $.Strs "skillsNoteScale"}}</li>
+            </ul>
+          </ul>
+          </div>
+        </div>
+      </div>
+      <div class="pagebreak"></div>
+      <div class="section work">
+        <div class="section-header">
+          <h2>{{index $.Strs "workHeading"}}</h2>
+        </div>
+        <div class="section-hr"></div>
+        <div class="section-content">
+          {{range .Res.Work -}}
+          <div class="work-chapter">
+            <div class="work-chapter-header">
+              <h3 class="name">{{.Company}}</h3>
+              <p class="period">
+                <span class="skill-ref skill-ref-large" value="{{.SkillRef}}"></span>
+                {{if ne .EndDate "" -}}
+                <span>{{.StartDate}} – {{.EndDate}},</span>
+                {{else -}}
+                <span>{{.StartDate}} – {{index $.Strs "timeNow"}},</span>
+                {{end -}}
+                <span>{{.Location}}</span>
+              </p>
+              <p class="description">{{.Title}}</p>
+            </div>
+            <div class="work-chapter-content">
+              <ul>
+                {{range .Highlights -}}
+                <li>{{.}}</li>
+                {{end -}}
+              </ul>
+            </div>
+          </div>
+          {{end -}}
+        </div>
+      </div>
+      <div class="pagebreak"></div>
+      <div class="section education">
+        <div class="section-header">
+          <h2>{{index $.Strs "educationHeading"}}</h2>
+        </div>
+        <div class="section-hr"></div>
+        <div class="section-content">
+          {{range .Res.Education -}}
+          <div class="education-chapter">
+            <div class="education-chapter-header">
+              <h3 class="name">{{.Institution}}</h3>
+              <p class="period">
+                <span class="skill-ref skill-ref-large" value="{{.SkillRef}}"></span>
+                {{if ne .EndDate "" -}}
+                <span>{{.StartDate}} – {{.EndDate}},</span>
+                {{else -}}
+                <span>{{.StartDate}} – {{index $.Strs "timeNow"}},</span>
+                {{end -}}
+                <span>{{.Location}}</span>
+              </p>
+              <p class="description">{{.Degree}}</p>
+            </div>
+            {{range .Work -}}
+            <div class="education-chapter-content">
+              <div>
+                <h4 class="name">{{.Type}}</h4>
+                <p class="period">
+                  <span class="skill-ref skill-ref-large" value="{{.SkillRef}}"></span>
+                  {{if ne .EndDate "" -}}
+                  <span>{{.StartDate}} – {{.EndDate}},</span>
+                  {{else -}}
+                  <span>{{.StartDate}} – {{index $.Strs "timeNow"}},</span>
+                  {{end -}}
+                  <span>{{.Location}}</span>
+                </p>
+              </div>
+              <ul>
+                {{range .Highlights -}}
+                <li>{{.}}</li>
+                {{end -}}
+              </ul>
+            </div>
+            {{end -}}
+          </div>
+          {{end -}}
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

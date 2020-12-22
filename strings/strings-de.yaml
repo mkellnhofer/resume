@@ -1,0 +1,12 @@
+language: Deutsch
+strings:
+  pictureAlt: Profilbild
+  linkEmailAlt: E-mail
+  linkAddressAlt: Adresse
+  introHeading: Persönliches Profil
+  skillsHeading: Kenntnisse
+  skillsNoteColor: "Farbe: siehe Berufserfahrung/Studium, grau: Selbststudium/privat"
+  skillsNoteScale: "Skalierung: 25%: Grundkenntnisse, 50%: fortgeschrittene Kenntnisse, 75%: fundierte Kenntnisse, 100%: Experte"
+  workHeading: Berufserfahrung
+  educationHeading: Studium
+  timeNow: jetzt

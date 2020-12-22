@@ -1,0 +1,90 @@
+isDefault: false
+basics:
+  name: John Doe
+  title: Software-Entwickler
+  links:
+  - type: email
+    text: john@doe.com
+  - type: link
+    ico: github
+    url: https://github.com/johndoe
+    desc: GitHub
+  - type: link
+    ico: stackoverflow
+    url: https://stackoverflow.com/users/1
+    desc: Stackoverflow
+  - type: address
+    text: Erde
+intro: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+  labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+  nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+  esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+  in culpa qui officia deserunt mollit anim id est laborum."
+skills:
+  major:
+  - name: Linux / Unix
+    refs: [orange, yellow, grey]
+    progress: 90
+  - name: Shell Script
+    refs: [orange, grey]
+    progress: 60
+  - name: C++
+    refs: [orange, yellow, green, lightgreen]
+    progress: 70
+  minor:
+  - name: Eclipse
+    refs: [orange, yellow, green, grey]
+  - name: Vim
+    refs: [orange, grey]
+  - name: Git
+    refs: [orange, yellow, grey]
+  - name: Make
+    refs: [orange, yellow, grey]
+  - name: Jenkins
+    refs: [orange]
+work:
+- company: Eine Firma GmbH
+  startDate: 10/2017
+  endDate: 
+  location: Erde
+  title: C++-Entwickler
+  skillRef: orange
+  highlights:
+  - "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  - "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+    eu fugiat nulla pariatur."
+  - "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+    id est laborum."
+  - "Aute irure dolor in reprehenderit in voluptate velit esse cillum."
+- company: Eine andere Firma GmbH
+  startDate: 04/2015
+  endDate: 09/2017
+  location: Erde
+  title: C++-Entwickler
+  skillRef: yellow
+  highlights:
+  - "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  - "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+    mollit anim id est laborum."
+  - "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+education:
+- institution: Universität Irgendwo
+  startDate: 10/2012
+  endDate: 11/2015
+  location: Erde
+  degree: Bachelor Computer Science (B. Sc.)
+  skillRef: green
+  work:
+  - type: Bachelorarbeit
+    startDate: 08/2015
+    endDate: 11/2015
+    location: Erde
+    skillRef: lightgreen
+    highlights:
+    - "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+      dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+      culpa qui officia deserunt mollit anim id est laborum."
