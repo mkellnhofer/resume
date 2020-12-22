@@ -1,90 +1,176 @@
 isDefault: false
 basics:
-  name: John Doe
+  name: Matthias Kellnhofer
   title: Software-Entwickler
   links:
   - type: email
-    text: john@doe.com
+    text: matthias@kellnhofer.de
   - type: link
     ico: github
-    url: https://github.com/johndoe
+    url: https://github.com/mkellnhofer
     desc: GitHub
   - type: link
     ico: stackoverflow
-    url: https://stackoverflow.com/users/1
+    url: https://stackoverflow.com/users/8253209
     desc: Stackoverflow
   - type: address
-    text: Erde
-intro: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-  labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-  nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-  esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
-  in culpa qui officia deserunt mollit anim id est laborum."
+    text: Regensburg
+intro: "Ich bin ein begeisterter Software-Entwickler mit mehr als fünf Jahren Erfahrung in den
+  Bereichen Backend-, Frontend- und App-Entwicklung. In den letzten 10 Jahren habe ich neben dem
+  technischen Wissen auch umfassende Kenntnisse in allen Phasen der Software-Entwicklung gesammelt.
+  Vom Requirement-Engineering, dem Erstellen von Prototypen, der Konzeption bis hin zum Testen und
+  Ausrollen der Anwendungen. Ich habe in der Zeit selbstständig mehrere Projekte erfolgreich 
+  abgeschlossen, aber arbeite ebenso gerne in einem größeren Team."
 skills:
   major:
-  - name: Linux / Unix
-    refs: [orange, yellow, grey]
+  - name: Java
+    refs: [red, yellow, green, lightblue, grey]
     progress: 90
-  - name: Shell Script
-    refs: [orange, grey]
-    progress: 60
-  - name: C++
-    refs: [orange, yellow, green, lightgreen]
+  - name: Spring / Spring Boot
+    refs: [red, grey]
     progress: 70
+  - name: RESTful Web Services
+    refs: [red, grey]
+    progress: 90
+  - name: SOA / Microservices
+    refs: [red, grey]
+    progress: 60
+  - name: HTML & CSS / SASS
+    refs: [red, orange, grey]
+    progress: 80
+  - name: JavaScript / ES
+    refs: [red, orange, grey]
+    progress: 50
+  - name: Android
+    refs: [red, yellow, grey]
+    progress: 70
+  - name: Go
+    refs: [grey]
+    progress: 50
   minor:
+  - name: Linux / Unix
+    refs: [red, grey]
+  - name: IntelliJ
+    refs: [red, grey]
   - name: Eclipse
-    refs: [orange, yellow, green, grey]
-  - name: Vim
-    refs: [orange, grey]
+    refs: [yellow, green, grey]
+  - name: VS Code
+    refs: [grey]
   - name: Git
-    refs: [orange, yellow, grey]
-  - name: Make
-    refs: [orange, yellow, grey]
+    refs: [red, yellow, grey]
+  - name: GitHub
+    refs: [red, grey]
+  - name: Docker
+    refs: [red, grey]
   - name: Jenkins
+    refs: [red]
+  - name: Jira
+    refs: [red]
+  - name: Confluence
+    refs: [red, orange]
+  - name: OAuth
+    refs: [red, grey]
+  - name: OpenID
+    refs: [red]
+  - name: Maven
+    refs: [red, grey]
+  - name: Gradle
+    refs: [red, grey]
+  - name: Webpack
+    refs: [red, grey]
+  - name: Java JPA
+    refs: [red, green, grey]
+  - name: Java EE (JSP / ...)
+    refs: [red, green]
+  - name: Swagger
+    refs: [red, grey]
+  - name: Bootstrap
+    refs: [grey]
+  - name: Google MDC Web
+    refs: [red, grey]
+  - name: C/C++
+    refs: [yellow, green, grey]
+  - name: MySQL
+    refs: [red, grey]
+  - name: Oracle SQL/PLSQL
+    refs: [orange, green]
+  - name: SAP ERP (MM, SD)
+    refs: [orange]
+  - name: SAP BI
+    refs: [orange]
+  - name: ABAP
     refs: [orange]
 work:
-- company: Eine Firma GmbH
-  startDate: 10/2017
+- company: Dracoon GmbH
+  startDate: 09/2015
   endDate: 
-  location: Erde
-  title: C++-Entwickler
+  location: Regensburg
+  title: Full-Stack-Entwickler
+  skillRef: red
+  highlights:
+  - "Erstellen von Spezifikationen für Front- und Backend"
+  - "Konzeption und Implementierung diverser Features/Refactorings für das API-Backend (z.B:
+    Refactoring der bestehenden Authentifizierungslogik inkl. der Active-Directory-Anbindung sowie
+    Implementierung der OpenID-Connect-Anbindung)"
+  - "Konzeption und Implementierung des OAuth-Authorization-Service"
+  - "Konzeption und Implementierung des API-Gateways im Rahmen der Migration zu Microservices"
+  - "Konzeption und Implementierung der Android-App (Die Android-App wurde von Grund auf neu
+    entwickelt und löste die bereits existierende Xamarin-App innerhalb von drei Monaten ab.)"
+  - "Konzeption und Implementierung der Java-SDKs (Die Java-SDKs sind Open-Source-Software und
+    werden intern sowie von Kunden verwendet. Außerdem bilden sie die Vorlage für die darauf
+    folgenden SDKs.)"
+  - "Unterstützung bei Kundenprojekten (mit Kundenkontakt vor Ort)"
+  - "Einarbeitung neuer Kollegen"
+- company: Osram GmbH
+  startDate: 04/2011
+  endDate: 09/2014
+  location: Regensburg
+  title: SAP BI-Entwickler / Web-Entwickler
   skillRef: orange
   highlights:
-  - "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-  - "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-    eu fugiat nulla pariatur."
-  - "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-    id est laborum."
-  - "Aute irure dolor in reprehenderit in voluptate velit esse cillum."
-- company: Eine andere Firma GmbH
-  startDate: 04/2015
-  endDate: 09/2017
-  location: Erde
-  title: C++-Entwickler
-  skillRef: yellow
-  highlights:
-  - "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-  - "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-    mollit anim id est laborum."
-  - "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+  - "Daten-Modellierung und Entwicklung in SAP BI und Oracle (z.B.: Entwicklung von neuen und
+    Erweiterung von bestehenden Info-Providern, deren Architektur, der entsprechenden
+    Datenaufbereitung und der Lade-Prozesse in einem zweijährigen Projekt, bei dem das Berichtswesen
+    der Produktion über die unterschiedlichen Produktionslinien und Werke standardisiert wurde)"
+  - "Data-Staging für SAP BI (z.B.: Entwicklung eines generischen Extraktors für Sharepoint)"
+  - "Entwicklung von Web-basierten Anwendungen und Berichten mit SAP BEx Web und JavaScript (z.B.:
+    Entwicklung einer Web-Anwendungen, welche ein- und ausgehende Produktionslose an einer
+    ausgewählten Arbeitsstation, deren Ankunftszeit, Status, Priorität und weitere Informationen
+    visualisiert)"
+  - "Customizing und Entwicklung im SAP Netweaver Portal (z.B.: Anpassung des Portals an die
+    Corporate Identity, Integration der Bex Web-Anwendungen und Entwicklung der Portal-Struktur in
+    einem Projekt, bei dem das Netweaver Portal als zentrale Reporting-Plattform etabliert wurde)"
 education:
-- institution: Universität Irgendwo
-  startDate: 10/2012
-  endDate: 11/2015
-  location: Erde
-  degree: Bachelor Computer Science (B. Sc.)
+- institution: OTH Regensburg
+  startDate: 10/2011
+  endDate: 07/2015
+  location: Regensburg
+  degree: Master Computer Science (M. Sc.) (in Teilzeit bzw. nebenberuflich)
   skillRef: green
   work:
-  - type: Bachelorarbeit
-    startDate: 08/2015
-    endDate: 11/2015
-    location: Erde
-    skillRef: lightgreen
+  - type: Masterarbeit - Continental AG
+    startDate: 10/2014
+    endDate: 04/2015
+    location: Regensburg
+    skillRef: yellow
     highlights:
-    - "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-      dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-      culpa qui officia deserunt mollit anim id est laborum."
+    - "Portierung einer Software für Steuergeräte nach Android (Zielsetzung der Arbeit war, durch
+      die Portierung eine schnellere Entwicklung von Prototypen sowie die Nutzung in anderen
+      Anwendungsszenarien zu ermöglichen. Dies wurde u.a. durch die beispielhafte Implementierung
+      einer App zum effizienten Fahren gezeigt.)"
+- institution: OTH Regensburg
+  startDate: 10/2006
+  endDate: 10/2010
+  location: Regensburg
+  degree: Bachelor Computer Science (B. Sc.) (Allgemeine Informatik)
+  skillRef: green
+  work:
+  - type: Bachelorarbeit - Labor IP
+    startDate: 07/2010
+    endDate: 10/2010
+    location: Regensburg
+    skillRef: lightblue
+    highlights:
+    - "Entwicklung einer Java-Anwendung zur Analyse des MRP-Algorithmus (Bestandteil der Arbeit
+      war u.a. die Umsetzung als Plugin sowie die Entwicklung eines Plugin-Frameworks als Grundlage
+      für weitere Anwendungen.)"

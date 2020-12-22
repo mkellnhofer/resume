@@ -1,90 +1,172 @@
 isDefault: true
 basics:
-  name: John Doe
+  name: Matthias Kellnhofer
   title: Software Engineer
   links:
   - type: email
-    text: john@doe.com
+    text: matthias@kellnhofer.de
   - type: link
     ico: github
-    url: https://github.com/johndoe
+    url: https://github.com/mkellnhofer
     desc: GitHub
   - type: link
     ico: stackoverflow
-    url: https://stackoverflow.com/users/1
+    url: https://stackoverflow.com/users/8253209
     desc: Stackoverflow
   - type: address
-    text: Earth
-intro: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-  labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-  nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-  esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
-  in culpa qui officia deserunt mollit anim id est laborum."
+    text: Regensburg
+intro: "I am an enthusiastic software developer with more than five years experience in backend,
+  frontend and app development. In the last 10 years, in addition to technical skills, I have gained
+  extensive knowledge in all phases of software development. From requirement engineering, creating
+  prototypes, conceptual design to testing, rollout and writing documentation. I have successfully
+  completed projects on my own but also enjoy working in larger teams."
 skills:
   major:
-  - name: Linux / Unix
-    refs: [orange, yellow, grey]
+  - name: Java
+    refs: [red, yellow, green, lightblue, grey]
     progress: 90
-  - name: Shell Script
-    refs: [orange, grey]
-    progress: 60
-  - name: C++
-    refs: [orange, yellow, green, lightgreen]
+  - name: Spring / Spring Boot
+    refs: [red, grey]
     progress: 70
+  - name: RESTful Web Services
+    refs: [red, grey]
+    progress: 90
+  - name: SOA / Microservices
+    refs: [red, grey]
+    progress: 60
+  - name: HTML & CSS / SASS
+    refs: [red, orange, grey]
+    progress: 80
+  - name: JavaScript / ES
+    refs: [red, orange, grey]
+    progress: 50
+  - name: Android
+    refs: [red, yellow, grey]
+    progress: 70
+  - name: Go
+    refs: [grey]
+    progress: 50
   minor:
+  - name: Linux / Unix
+    refs: [red, grey]
+  - name: IntelliJ
+    refs: [red, grey]
   - name: Eclipse
-    refs: [orange, yellow, green, grey]
-  - name: Vim
-    refs: [orange, grey]
+    refs: [yellow, green, grey]
+  - name: VS Code
+    refs: [grey]
   - name: Git
-    refs: [orange, yellow, grey]
-  - name: Make
-    refs: [orange, yellow, grey]
+    refs: [red, yellow, grey]
+  - name: GitHub
+    refs: [red, grey]
+  - name: Docker
+    refs: [red, grey]
   - name: Jenkins
+    refs: [red]
+  - name: Jira
+    refs: [red]
+  - name: Confluence
+    refs: [red, orange]
+  - name: OAuth
+    refs: [red, grey]
+  - name: OpenID
+    refs: [red]
+  - name: Maven
+    refs: [red, grey]
+  - name: Gradle
+    refs: [red, grey]
+  - name: Webpack
+    refs: [red, grey]
+  - name: Java JPA
+    refs: [red, green, grey]
+  - name: Java EE (JSP / ...)
+    refs: [red, green]
+  - name: Swagger
+    refs: [red, grey]
+  - name: Bootstrap
+    refs: [grey]
+  - name: Google MDC Web
+    refs: [red, grey]
+  - name: C/C++
+    refs: [yellow, green, grey]
+  - name: MySQL
+    refs: [red, grey]
+  - name: Oracle SQL/PLSQL
+    refs: [orange, green]
+  - name: SAP ERP (MM, SD)
+    refs: [orange]
+  - name: SAP BI
+    refs: [orange]
+  - name: ABAP
     refs: [orange]
 work:
-- company: A Company Inc.
-  startDate: 2017/10
+- company: Dracoon GmbH
+  startDate: 2015/09
   endDate: 
-  location: Earth
-  title: C++ Developer
+  location: Regensburg
+  title: Full Stack Developer
+  skillRef: red
+  highlights:
+  - "Writing of technical specifications for front and backend"
+  - "Design and implementation of various features/refactorings for the API backend (e.g.:
+    Refactored the existing authentication logic, including the Active Directory authentication
+    logic, and implemented the support of OpenID Connect)"
+  - "Design and implementation of the OAuth authorization service"
+  - "Design and implementation of the API gateway as part of the migration to microservices"
+  - "Design and implementation of the Android app (The Android app was developed from scratch and
+    replaced the existing Xamarin app within three months.)"
+  - "Design and implementation of the Java SDKs (The Java SDKs are Open-source software and are used
+    internally and by customers. They also act as references for the subsequent SDKs.)"
+  - "Support of customer projects (with customer contact on site)"
+  - "Mentoring of new colleagues"
+- company: Osram GmbH
+  startDate: 2011/04
+  endDate: 2014/09
+  location: Regensburg
+  title: SAP BI Developer / Web Developer
   skillRef: orange
   highlights:
-  - "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-  - "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-    eu fugiat nulla pariatur."
-  - "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-    id est laborum."
-  - "Aute irure dolor in reprehenderit in voluptate velit esse cillum."
-- company: Another Company Inc.
-  startDate: 2015/04
-  endDate: 2017/09
-  location: Earth
-  title: C++ Developer
-  skillRef: yellow
-  highlights:
-  - "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-  - "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-    mollit anim id est laborum."
-  - "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+  - "Data modeling and development in SAP BI and Oracle database (e.g. Developed new and enhanced
+    existing data providers and data flows for various production key figures in a two year project
+    which standardized the production reporting.)"
+  - "Data staging for SAP BI (e.g.: Developed a generic data source to extract data from
+    Sharepoint.)"
+  - "Development of web applications and web reports with SAP BEx web tools and JavaScript (e.g.:
+    Developed a web application which visualizes incoming production lots for a selected work
+    station on a timeline with information like arrival time, size, priority and product type.)"
+  - "Customizing and developments in the SAP Enterprise Portal (e.g.: Implemented a portal theme
+    according to the corporate identity and integrated existing web applications in a project which
+    established Netweaver Portal as the central reporting platform.)"
 education:
-- institution: University of Somewhere
-  startDate: 2012/10
-  endDate: 2015/11
-  location: Earth
+- institution: OTH Regensburg
+  startDate: 2011/10
+  endDate: 2015/07
+  location: Regensburg
+  degree: Master Computer Science (M. Sc.) (Part-Time)
+  skillRef: green
+  work:
+  - type: Master’s Thesis - Continental AG
+    startDate: 2014/10
+    endDate: 2015/04
+    location: Regensburg
+    skillRef: yellow
+    highlights:
+    - "Porting a software system for car control units to the Android platform (The objective was to
+      enable faster development of prototypes and allow usage in other areas. This was shown by the
+      exemplary implementation of an app for efficient driving.)"
+- institution: OTH Regensburg
+  startDate: 2006/10
+  endDate: 2010/10
+  location: Regensburg
   degree: Bachelor Computer Science (B. Sc.)
   skillRef: green
   work:
-  - type: Bachelor’s Thesis
-    startDate: 2015/08
-    endDate: 2015/11
-    location: Earth
-    skillRef: lightgreen
+  - type: Bachelor’s Thesis - IP Laboratory
+    startDate: 2010/07
+    endDate: 2010/10
+    location: Regensburg
+    skillRef: lightblue
     highlights:
-    - "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-      dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-      culpa qui officia deserunt mollit anim id est laborum."
+    - "Development of a Java application for analyzing the MRP algorithm (A part of the work was the
+      implementation as a plugin and the development of a plugin framework as the basis for further
+      applications.)"
