@@ -27,10 +27,10 @@ skills:
     progress: 90
   - name: Spring / Spring Boot
     refs: [red, grey]
-    progress: 70
+    progress: 80
   - name: RESTful Web Services
     refs: [red, grey]
-    progress: 90
+    progress: 80
   - name: SOA / Microservices
     refs: [red, grey]
     progress: 60
