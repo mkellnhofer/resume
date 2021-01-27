@@ -69,7 +69,7 @@ skills:
     refs: [red, orange]
   - name: OAuth
     refs: [red, grey]
-  - name: OpenID
+  - name: OpenID Connect
     refs: [red]
   - name: Maven
     refs: [red, grey]
