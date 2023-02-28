@@ -26,7 +26,7 @@ const (
 type Resume struct {
 	IsDefault bool               `yaml:"isDefault"`
 	Basics    *ResumeBasics      `yaml:"basics"`
-	Intro     string             `yaml:"intro"`
+	Intro     []string           `yaml:"intro"`
 	Skills    *ResumeSkills      `yaml:"skills"`
 	Work      []*ResumeWork      `yaml:"work"`
 	Education []*ResumeEducation `yaml:"education"`

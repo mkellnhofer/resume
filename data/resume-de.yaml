@@ -15,12 +15,14 @@ basics:
     desc: Stackoverflow
   - type: address
     text: Regensburg
-intro: "Ich bin ein begeisterter Software-Entwickler mit mehr als fünf Jahren Erfahrung in den
-  Bereichen Backend-, Frontend- und App-Entwicklung. In den letzten 10 Jahren habe ich neben dem
-  technischen Wissen auch umfassende Kenntnisse in allen Phasen der Software-Entwicklung gesammelt.
-  Vom Requirement-Engineering, dem Erstellen von Prototypen, der Konzeption bis hin zum Testen und
-  Ausrollen der Anwendungen. Ich habe in der Zeit selbstständig mehrere Projekte erfolgreich 
-  abgeschlossen, aber arbeite ebenso gerne in einem größeren Team."
+intro:
+  - "Ich bin ein begeisterter Software-Entwickler mit mehr als fünf Jahren Erfahrung in den
+    Bereichen Backend-, Frontend- und App-Entwicklung. In den letzten 10 Jahren habe ich neben dem
+    technischen Wissen auch umfassende Kenntnisse in allen Phasen der Software-Entwicklung
+    gesammelt. Vom Requirement-Engineering, dem Erstellen von Prototypen, der Konzeption bis hin zum
+    Testen und Ausrollen der Anwendungen."
+  - "Ich habe in der Zeit selbstständig mehrere Projekte erfolgreich abgeschlossen, aber arbeite
+    ebenso gerne in einem größeren Team."
 skills:
   major:
   - name: Java

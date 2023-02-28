@@ -15,11 +15,12 @@ basics:
     desc: Stackoverflow
   - type: address
     text: Regensburg
-intro: "I am an enthusiastic software developer with more than five years experience in backend,
-  frontend and app development. In the last 10 years, in addition to technical skills, I have gained
-  extensive knowledge in all phases of software development. From requirement engineering, creating
-  prototypes, conceptual design to testing, rollout and writing documentation. I have successfully
-  completed projects on my own but also enjoy working in larger teams."
+intro:
+  - "I am an enthusiastic software developer with more than five years experience in backend,
+    frontend and app development. In the last 10 years, in addition to technical skills, I have
+    gained extensive knowledge in all phases of software development. From requirement engineering,
+    creating prototypes, conceptual design to testing, rollout and writing documentation."
+  - "I have successfully completed projects on my own but also enjoy working in larger teams."
 skills:
   major:
   - name: Java
