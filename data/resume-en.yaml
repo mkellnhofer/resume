@@ -16,11 +16,15 @@ basics:
   - type: address
     text: Regensburg
 intro:
-  - "I am an enthusiastic software developer with more than five years experience in backend,
-    frontend and app development. In the last 10 years, in addition to technical skills, I have
-    gained extensive knowledge in all phases of software development. From requirement engineering,
-    creating prototypes, conceptual design to testing, rollout and writing documentation."
-  - "I have successfully completed projects on my own but also enjoy working in larger teams."
+  - "I am a software engineer by heart and have a passion for creating software and products
+    that users truly enjoy using. My expertise spans across various areas, with more than five years
+    experience in backend, frontend and app development. Over the last 10 years, in addition to
+    technical skills, I have gained extensive knowledge in all phases of software development,
+    including requirement engineering, creating prototypes, conceptual design to testing, rollout and
+    writing documentation."
+  - "I enjoy collaborating with others and also have experience leading teams to
+    success. In my spare time, I indulge my passion for software development by tackling on my own
+    small projects and love to learn and master new skills."
 skills:
   major:
   - name: Java
@@ -43,7 +47,7 @@ skills:
     progress: 50
   - name: Android
     refs: [red, yellow, grey]
-    progress: 70
+    progress: 80
   - name: Go
     refs: [grey]
     progress: 50
@@ -52,13 +56,13 @@ skills:
     refs: [red, grey]
   - name: IntelliJ
     refs: [red, grey]
-  - name: Eclipse
-    refs: [yellow, green, grey]
   - name: VS Code
     refs: [grey]
   - name: Git
     refs: [red, yellow, grey]
   - name: GitHub
+    refs: [red, grey]
+  - name: GitLab
     refs: [red, grey]
   - name: Docker
     refs: [red, grey]
@@ -66,34 +70,42 @@ skills:
     refs: [red]
   - name: Jira
     refs: [red]
-  - name: Confluence
-    refs: [red, orange]
-  - name: OAuth
-    refs: [red, grey]
-  - name: OpenID Connect
-    refs: [red]
   - name: Maven
     refs: [red, grey]
   - name: Gradle
     refs: [red, grey]
-  - name: Webpack
-    refs: [red, grey]
-  - name: Java JPA
-    refs: [red, green, grey]
-  - name: Java EE (JSP / ...)
-    refs: [red, green]
-  - name: Swagger
-    refs: [red, grey]
-  - name: Bootstrap
-    refs: [grey]
-  - name: Google MDC Web
+  - name: Kotlin
     refs: [red, grey]
   - name: C/C++
     refs: [yellow, green, grey]
+  - name: OAuth
+    refs: [red, grey]
+  - name: OpenID Connect
+    refs: [red]
+  - name: OpenAPI Specification
+    refs: [red, grey]
   - name: MySQL
+    refs: [red, grey]
+  - name: SQLite
     refs: [red, grey]
   - name: Oracle SQL/PLSQL
     refs: [orange, green]
+  - name: RabbitMQ
+    refs: [red]
+  - name: Keycloak
+    refs: [red]
+  - name: npm
+    refs: [red, grey]
+  - name: Webpack
+    refs: [red, grey]
+  - name: React
+    refs: [grey]
+  - name: Vue
+    refs: [grey]
+  - name: Bootstrap
+    refs: [grey]
+  - name: Material Components
+    refs: [red, grey]
   - name: SAP ERP (MM, SD)
     refs: [orange]
   - name: SAP BI
@@ -118,8 +130,9 @@ work:
     replaced the existing Xamarin app within three months.)"
   - "Design and implementation of the Java SDKs (The Java SDKs are open-source software and are used
     internally and by customers. They also act as references for the subsequent SDKs.)"
-  - "Support of customer projects (with customer contact on site)"
+  - "Team lead of apps development (Head of Apps)"
   - "Mentoring of new colleagues"
+  - "Support of customer projects (with customer contact on site)"
 - company: Osram GmbH
   startDate: 2011/04
   endDate: 2014/09

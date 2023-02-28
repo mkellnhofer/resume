@@ -16,13 +16,16 @@ basics:
   - type: address
     text: Regensburg
 intro:
-  - "Ich bin ein begeisterter Software-Entwickler mit mehr als fünf Jahren Erfahrung in den
-    Bereichen Backend-, Frontend- und App-Entwicklung. In den letzten 10 Jahren habe ich neben dem
-    technischen Wissen auch umfassende Kenntnisse in allen Phasen der Software-Entwicklung
-    gesammelt. Vom Requirement-Engineering, dem Erstellen von Prototypen, der Konzeption bis hin zum
-    Testen und Ausrollen der Anwendungen."
-  - "Ich habe in der Zeit selbstständig mehrere Projekte erfolgreich abgeschlossen, aber arbeite
-    ebenso gerne in einem größeren Team."
+  - "Ich bin von Herzen Softwareentwickler und habe eine Leidenschaft Software zu erstellen,
+    die Benutzer gerne nutzen. Meine Kompetenzen erstrecken sich über verschiedene Bereiche, mit mehr
+    als fünf Jahren Erfahrung in Backend-, Frontend- und App-Entwicklung. In den letzten 10 Jahren
+    habe ich neben den technischen Fähigkeiten auch umfassende Kenntnisse in allen Phasen der
+    Softwareentwicklung gewonnen, einschließlich Requirement-Engineering, dem Entwerfen von
+    Prototypen, konzeptionellem Design bis hin zu Testing, Rollout und dem Erstellen von
+    Dokumentation."
+  - "Ich arbeite gerne mit anderen zusammen und habe auch Erfahrung, Teams erfolgreich
+    zu führen. In meiner Freizeit verfolge ich meine Leidenschaft durch eigene kleine Projekte und
+    liebe es, neue Fähigkeiten zu erlernen und zu meistern."
 skills:
   major:
   - name: Java
@@ -45,7 +48,7 @@ skills:
     progress: 50
   - name: Android
     refs: [red, yellow, grey]
-    progress: 70
+    progress: 80
   - name: Go
     refs: [grey]
     progress: 50
@@ -54,13 +57,13 @@ skills:
     refs: [red, grey]
   - name: IntelliJ
     refs: [red, grey]
-  - name: Eclipse
-    refs: [yellow, green, grey]
   - name: VS Code
     refs: [grey]
   - name: Git
     refs: [red, yellow, grey]
   - name: GitHub
+    refs: [red, grey]
+  - name: GitLab
     refs: [red, grey]
   - name: Docker
     refs: [red, grey]
@@ -68,34 +71,42 @@ skills:
     refs: [red]
   - name: Jira
     refs: [red]
-  - name: Confluence
-    refs: [red, orange]
-  - name: OAuth
-    refs: [red, grey]
-  - name: OpenID Connect
-    refs: [red]
   - name: Maven
     refs: [red, grey]
   - name: Gradle
     refs: [red, grey]
-  - name: Webpack
-    refs: [red, grey]
-  - name: Java JPA
-    refs: [red, green, grey]
-  - name: Java EE (JSP / ...)
-    refs: [red, green]
-  - name: Swagger
-    refs: [red, grey]
-  - name: Bootstrap
-    refs: [grey]
-  - name: Google MDC Web
+  - name: Kotlin
     refs: [red, grey]
   - name: C/C++
     refs: [yellow, green, grey]
+  - name: OAuth
+    refs: [red, grey]
+  - name: OpenID Connect
+    refs: [red]
+  - name: OpenAPI Specification
+    refs: [red, grey]
   - name: MySQL
+    refs: [red, grey]
+  - name: SQLite
     refs: [red, grey]
   - name: Oracle SQL/PLSQL
     refs: [orange, green]
+  - name: RabbitMQ
+    refs: [red]
+  - name: Keycloak
+    refs: [red]
+  - name: npm
+    refs: [red, grey]
+  - name: Webpack
+    refs: [red, grey]
+  - name: React
+    refs: [grey]
+  - name: Vue
+    refs: [grey]
+  - name: Bootstrap
+    refs: [grey]
+  - name: Material Components
+    refs: [red, grey]
   - name: SAP ERP (MM, SD)
     refs: [orange]
   - name: SAP BI
@@ -121,8 +132,9 @@ work:
   - "Konzeption und Implementierung der Java-SDKs (Die Java-SDKs sind Open-Source-Software und
     werden intern sowie von Kunden verwendet. Außerdem bilden sie die Vorlage für die darauf
     folgenden SDKs.)"
-  - "Unterstützung bei Kundenprojekten (mit Kundenkontakt vor Ort)"
+  - "Teamleitung der Apps-Entwicklung (Head of Apps)"
   - "Einarbeitung neuer Kollegen"
+  - "Unterstützung bei Kundenprojekten (mit Kundenkontakt vor Ort)"
 - company: Osram GmbH
   startDate: 04/2011
   endDate: 09/2014
