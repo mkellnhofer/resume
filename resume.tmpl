@@ -52,7 +52,9 @@
         </div>
         <div class="section-hr"></div>
         <div class="section-content">
-          <p>{{.Res.Intro}}</p>
+          {{range .Res.Intro -}}
+          <p>{{.}}</p>
+          {{end -}}
         </div>
       </div>
       <div class="section skills">

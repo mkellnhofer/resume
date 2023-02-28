@@ -207,6 +207,10 @@ a {
   }
 }
 
+.section-content > p:not(:last-child) {
+  margin-bottom: 1em;
+}
+
 /* --- intro --- */
 
 /* --- skills --- */
