@@ -10,6 +10,7 @@ See: https://mkellnhofer.github.io/resume
 
 - responsive (layouts for desktop, tablet and mobile)
 - localizable (a separate page for each language)
+- supports "light" and "dark" color schemes 
 
 ## Getting started
 
@@ -19,7 +20,8 @@ See: https://golang.org/doc/install
 
 ## Configuration
 
-YAML files are used to define resume contents. Each localization has a specific set of files. Currently, there are files for English and German.
+YAML files are used to define resume contents. Each localization has a specific set of files.
+Currently, there are files for English and German.
 
 Directory structure:
 
@@ -39,7 +41,8 @@ Directory structure:
     +-- profile-picture.png         <- Profile picture
 ```
 
-(`LANG-CODE` must be a string with [a-z] and length of 2. All files which don't follow the convention are ignored.)
+(`LANG-CODE` must be a string with [a-z] and length of 2. All files which don't follow the
+convention are ignored.)
 
 If you don't need a localization for a language, just delete the resume YAML file.
 

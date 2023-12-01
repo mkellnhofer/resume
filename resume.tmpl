@@ -66,12 +66,12 @@
           <div class="skills-major">
             {{range .Res.Skills.Major -}}
             <div>
-              <div>
+              <p>
                 <span>{{.Name}}</span>
                 {{range .Refs -}}
                 <span class="skill-ref" value="{{.}}"></span>
                 {{end -}}
-              </div>
+              </p>
               <div class="skill-progress" value="{{.Progress}}"></div>
             </div>
             {{end -}}
