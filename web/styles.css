@@ -21,8 +21,14 @@ body {
   }
 }
 
-div, h1, h2, h3, h4, p, ul, ol {
-  line-height: 150%;
+h1, h2, h3, h4 {
+  font-size: 1.0em;
+  line-height: 1.5em;
+}
+
+p, ul, ol {
+  font-size: 1.1em;
+  line-height: 1.7em;
 }
 
 p, ul, ol {
@@ -118,6 +124,10 @@ a {
   margin: 0 0 0 0;
 }
 
+.header ul {
+  font-size: 0.95em;
+}
+
 .header-links {
   list-style-type: none;
   padding: 0;
@@ -125,12 +135,13 @@ a {
 
 .header-links > li {
   display: flex;
-  margin-bottom: 0.25em;
+  margin-bottom: 0.3em;
 }
 
 .header-links > li > img {
-  width: 1.5em;
-  height: 1.5em;
+  width: 1.4em;
+  height: 1.4em;
+  margin-top: 0.1em;
   margin-right: 0.6em;
 }
 
@@ -151,7 +162,7 @@ a {
 }
 
 .section {
-    margin-bottom: 1.5em;
+  margin-bottom: 1.8em;
 }
 
 @media (min-width: 980px) {
@@ -211,6 +222,10 @@ a {
   margin-bottom: 1em;
 }
 
+.period {
+  font-size: 1.0em;
+}
+
 /* --- intro --- */
 
 /* --- skills --- */
@@ -238,7 +253,7 @@ a {
   }
 }
 
-.skills-major > div > div {
+.skills-major > div > p {
   margin: 0 0 0.2em 0;
 }
 
@@ -313,9 +328,9 @@ a {
 }
 
 .skill-ref {
+  line-height: 100%;
   position: relative;
   top: -0.1em;
-  line-height: 100%;
 }
 
 .skill-ref::after {
@@ -323,8 +338,8 @@ a {
 }
 
 .skill-ref-large {
-  top: 0.0em;
   font-size: 1.4em;
+  top: 0.0em;
 }
 
 .skill-ref[value="red"] {
@@ -360,8 +375,9 @@ a {
 }
 
 .skills-notes ul {
+  font-size: 0.9em;
+  list-style-type: "*";
   padding-left: 0.5em;
-  list-style-type: "*"
 }
 
 .skills-notes li {
@@ -396,9 +412,9 @@ a {
 }
 
 .work-chapter-header .description {
+  font-size: 1.2em;
   width: 100%;
   margin: 0.3em 0 0 0;
-  font-size: 1.1em;
 }
 
 /* --- education --- */
@@ -409,8 +425,8 @@ a {
   margin: 0 0 0 0;
 }
 
-.education h4  {
-  font-size: 1.1em;
+.education h4 {
+  font-size: 1.2em;
   font-weight: 400;
   margin: 0 0 0 0;
 }
@@ -435,9 +451,9 @@ a {
 }
 
 .education-chapter-header .description {
+  font-size: 1.1em;
   width: 100%;
   margin: 0.3em 0 0 0;
-  font-size: 1.1em;
 }
 
 .education-chapter-content:not(:last-child) {
@@ -487,7 +503,7 @@ a {
 
   body {
     margin: -15mm 0mm 0mm 0mm;
-    zoom: 95%;
+    zoom: 82%;
   }
 
   .lang-selector {
