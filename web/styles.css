@@ -63,7 +63,7 @@ a {
   margin-bottom: 2em;
 }
 
-@media (min-width: 650px), print {
+@media (min-width: 650px) {
   .header {
     display: flex;
     width: 600px;
@@ -492,6 +492,15 @@ a {
 
   .lang-selector {
     display: none;
+  }
+
+  .header {
+    display: flex;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+    margin-bottom: 2em;
   }
 
   .pagebreak {
