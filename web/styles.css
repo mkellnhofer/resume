@@ -5,6 +5,20 @@
   font-weight: 300;
 }
 
+@media (prefers-color-scheme: light) {
+  body {
+    color: #000000;
+    background: #ffffff;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #eeeeee;
+    background: #1e1e1e;
+  }
+}
+
 body {
   margin: 0 0 0 0;
 }
@@ -39,8 +53,16 @@ ul, ol {
   padding-left: 1.6em;
 }
 
-a {
-  color: #000000;
+@media (prefers-color-scheme: light) {
+  a {
+    color: #000000;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  a {
+    color: #eeeeee;
+  }
 }
 
 /* --- lang selector --- */
@@ -143,6 +165,18 @@ a {
   height: 1.4em;
   margin-top: 0.1em;
   margin-right: 0.6em;
+}
+
+@media (prefers-color-scheme: light) {
+  .header-links img {
+    filter: none;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .header-links img {
+    filter: invert(100%);
+  }
 }
 
 /* --- main --- */
@@ -273,14 +307,36 @@ a {
 
 .skill-progress {
   height: 10px;
-  background-color: #d6d6d6;
+}
+
+@media (prefers-color-scheme: light) {
+  .skill-progress {
+    background-color: #d6d6d6;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .skill-progress {
+    background-color: #555555;
+  }
 }
 
 .skill-progress::after {
   content: "";
   display: block;
   height: 10px;
-  background-color: #000000;
+}
+
+@media (prefers-color-scheme: light) {
+  .skill-progress::after {
+    background-color: #000000;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .skill-progress::after {
+    background-color: #aaaaaa;
+  }
 }
 
 .skill-progress[value="0"]:after {
