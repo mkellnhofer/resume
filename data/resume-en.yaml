@@ -77,6 +77,8 @@ skills:
     refs: [red, grey]
   - name: Kotlin
     refs: [red, grey]
+  - name: Solidity
+    refs: [grey]
   - name: C/C++
     refs: [yellow, green, grey]
   - name: OAuth
