@@ -4,7 +4,8 @@ A small static web page generator for my resume.
 
 See: https://mkellnhofer.github.io/resume
 
-![Screenshot](screenshot.png)
+![Screenshot](screenshot-light.png#gh-light-mode-only "Screenshot")
+![Screenshot](screenshot-dark.png#gh-dark-mode-only "Screenshot")
 
 ## Features
 
