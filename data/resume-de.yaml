@@ -188,6 +188,6 @@ education:
     location: Regensburg
     skillRef: lightblue
     highlights:
-    - "Entwicklung einer Java-Anwendung zur Analyse des MRP-Algorithmus (Bestandteil der Arbeit
-      war u.a. die Umsetzung als Plugin sowie die Entwicklung eines Plugin-Frameworks als Grundlage
-      für weitere Anwendungen.)"
+    - "Entwicklung einer Java-Anwendung, die es Studierenden ermöglicht, den MRP-Algorithmus zu
+      analysieren und zu verstehen (Bestandteil der Arbeit war u.a. die Umsetzung als Plugin sowie
+      die Entwicklung eines Plugin-Frameworks als Grundlage für weitere Anwendungen.)"

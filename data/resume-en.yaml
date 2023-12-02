@@ -184,6 +184,6 @@ education:
     location: Regensburg
     skillRef: lightblue
     highlights:
-    - "Development of a Java application for analyzing the MRP algorithm (A part of the work was the
-      implementation as a plugin and the development of a plugin framework as the basis for further
-      applications.)"
+    - "Development of a Java application that allows students to analyze and understand the MRP
+      algorithm (A part of the work was the implementation as a plugin and the development of a
+      plugin framework as the basis for further applications.)"
