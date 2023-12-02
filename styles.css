@@ -5,6 +5,20 @@
   font-weight: 300;
 }
 
+@media (prefers-color-scheme: light) {
+  body {
+    color: #000000;
+    background: #ffffff;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #eeeeee;
+    background: #1e1e1e;
+  }
+}
+
 body {
   margin: 0 0 0 0;
 }
@@ -21,8 +35,14 @@ body {
   }
 }
 
-div, h1, h2, h3, h4, p, ul, ol {
-  line-height: 150%;
+h1, h2, h3, h4 {
+  font-size: 1.0em;
+  line-height: 1.5em;
+}
+
+p, ul, ol {
+  font-size: 1.1em;
+  line-height: 1.7em;
 }
 
 p, ul, ol {
@@ -33,8 +53,16 @@ ul, ol {
   padding-left: 1.6em;
 }
 
-a {
-  color: #000000;
+@media (prefers-color-scheme: light) {
+  a {
+    color: #000000;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  a {
+    color: #eeeeee;
+  }
 }
 
 /* --- lang selector --- */
@@ -63,7 +91,7 @@ a {
   margin-bottom: 2em;
 }
 
-@media (min-width: 650px), print {
+@media (min-width: 650px) {
   .header {
     display: flex;
     width: 600px;
@@ -118,6 +146,10 @@ a {
   margin: 0 0 0 0;
 }
 
+.header ul {
+  font-size: 0.95em;
+}
+
 .header-links {
   list-style-type: none;
   padding: 0;
@@ -125,13 +157,26 @@ a {
 
 .header-links > li {
   display: flex;
-  margin-bottom: 0.25em;
+  margin-bottom: 0.3em;
 }
 
 .header-links > li > img {
-  width: 1.5em;
-  height: 1.5em;
+  width: 1.4em;
+  height: 1.4em;
+  margin-top: 0.1em;
   margin-right: 0.6em;
+}
+
+@media (prefers-color-scheme: light) {
+  .header-links img {
+    filter: none;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .header-links img {
+    filter: invert(100%);
+  }
 }
 
 /* --- main --- */
@@ -151,7 +196,7 @@ a {
 }
 
 .section {
-    margin-bottom: 1.5em;
+  margin-bottom: 1.8em;
 }
 
 @media (min-width: 980px) {
@@ -211,6 +256,10 @@ a {
   margin-bottom: 1em;
 }
 
+.period {
+  font-size: 1.0em;
+}
+
 /* --- intro --- */
 
 /* --- skills --- */
@@ -238,7 +287,7 @@ a {
   }
 }
 
-.skills-major > div > div {
+.skills-major > div > p {
   margin: 0 0 0.2em 0;
 }
 
@@ -258,14 +307,36 @@ a {
 
 .skill-progress {
   height: 10px;
-  background-color: #d6d6d6;
+}
+
+@media (prefers-color-scheme: light) {
+  .skill-progress {
+    background-color: #d6d6d6;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .skill-progress {
+    background-color: #555555;
+  }
 }
 
 .skill-progress::after {
   content: "";
   display: block;
   height: 10px;
-  background-color: #000000;
+}
+
+@media (prefers-color-scheme: light) {
+  .skill-progress::after {
+    background-color: #000000;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .skill-progress::after {
+    background-color: #aaaaaa;
+  }
 }
 
 .skill-progress[value="0"]:after {
@@ -313,9 +384,9 @@ a {
 }
 
 .skill-ref {
+  line-height: 100%;
   position: relative;
   top: -0.1em;
-  line-height: 100%;
 }
 
 .skill-ref::after {
@@ -323,8 +394,8 @@ a {
 }
 
 .skill-ref-large {
-  top: 0.0em;
   font-size: 1.4em;
+  top: 0.0em;
 }
 
 .skill-ref[value="red"] {
@@ -360,8 +431,9 @@ a {
 }
 
 .skills-notes ul {
+  font-size: 0.9em;
+  list-style-type: "*";
   padding-left: 0.5em;
-  list-style-type: "*"
 }
 
 .skills-notes li {
@@ -396,9 +468,9 @@ a {
 }
 
 .work-chapter-header .description {
+  font-size: 1.2em;
   width: 100%;
   margin: 0.3em 0 0 0;
-  font-size: 1.1em;
 }
 
 /* --- education --- */
@@ -409,8 +481,8 @@ a {
   margin: 0 0 0 0;
 }
 
-.education h4  {
-  font-size: 1.1em;
+.education h4 {
+  font-size: 1.2em;
   font-weight: 400;
   margin: 0 0 0 0;
 }
@@ -435,9 +507,9 @@ a {
 }
 
 .education-chapter-header .description {
+  font-size: 1.1em;
   width: 100%;
   margin: 0.3em 0 0 0;
-  font-size: 1.1em;
 }
 
 .education-chapter-content:not(:last-child) {
@@ -487,11 +559,20 @@ a {
 
   body {
     margin: -15mm 0mm 0mm 0mm;
-    zoom: 95%;
+    zoom: 82%;
   }
 
   .lang-selector {
     display: none;
+  }
+
+  .header {
+    display: flex;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+    margin-bottom: 2em;
   }
 
   .pagebreak {
