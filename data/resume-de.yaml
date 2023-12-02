@@ -16,16 +16,17 @@ basics:
   - type: address
     text: Regensburg
 intro:
-  - "Ich bin von Herzen Softwareentwickler und habe eine Leidenschaft Software zu erstellen,
-    die Benutzer gerne nutzen. Meine Kompetenzen erstrecken sich über verschiedene Bereiche, mit mehr
-    als fünf Jahren Erfahrung in Backend-, Frontend- und App-Entwicklung. In den letzten 10 Jahren
-    habe ich neben den technischen Fähigkeiten auch umfassende Kenntnisse in allen Phasen der
-    Softwareentwicklung gewonnen, einschließlich Requirement-Engineering, dem Entwerfen von
-    Prototypen, konzeptionellem Design bis hin zu Testing, Rollout und dem Erstellen von
-    Dokumentation."
-  - "Ich arbeite gerne mit anderen zusammen und habe auch Erfahrung, Teams erfolgreich
-    zu führen. In meiner Freizeit verfolge ich meine Leidenschaft durch eigene kleine Projekte und
-    liebe es, neue Fähigkeiten zu erlernen und zu meistern."
+  - "Ich bin von Herzen Softwareentwickler und liebe es, Software zu erstellen, die Benutzer gerne
+    verwenden. Meine berufliche Erfahrung erstreckt sich über verschiedene Bereiche, mit mehr als
+    fünf Jahren Erfahrung in der Backend-, Frontend- und App-Entwicklung. Dies ermöglicht es mir,
+    Probleme ganzheitlich zu verstehen und zu lösen, sowie Software Ende-zu-Ende zu entwickeln. In
+    den letzten 10 Jahren habe ich neben den technischen Fähigkeiten auch umfassende Kenntnisse in
+    allen Phasen der Softwareentwicklung gewonnen, einschließlich Requirement-Engineering, dem
+    Entwerfen von Prototypen, konzeptionellem Design bis hin zu Testing, Rollout und dem Erstellen
+    von Dokumentation."
+  - "Ich arbeite gerne in Team-Umgebungen und habe Spaß dran Lösungen gemeinsam zu entwicklen. In
+    meiner Freizeit verfolge ich meine Leidenschaft durch eigene kleine Projekte und liebe es, neue
+    Fähigkeiten zu erlernen und zu meistern."
 skills:
   major:
   - name: Java

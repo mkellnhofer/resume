@@ -16,15 +16,16 @@ basics:
   - type: address
     text: Regensburg
 intro:
-  - "I am a software engineer by heart and have a passion for creating software and products
-    that users truly enjoy using. My expertise spans across various areas, with more than five years
-    experience in backend, frontend and app development. Over the last 10 years, in addition to
-    technical skills, I have gained extensive knowledge in all phases of software development,
-    including requirement engineering, creating prototypes, conceptual design to testing, rollout and
-    writing documentation."
-  - "I enjoy collaborating with others and also have experience leading teams to
-    success. In my spare time, I indulge my passion for software development by tackling on my own
-    small projects and love to learn and master new skills."
+  - "I am a software engineer by heart and I love to create software that users enjoy using. My
+    professional experience spans across various areas, with more than five years experience in
+    backend, frontend and app development, which allows me to understand and solve problems
+    holistically and develop solutions end-to-end. Over the last 10 years, in addition to technical
+    skills, I have gained extensive knowledge in all phases of software development, including
+    requirement engineering, creating prototypes, conceptual design to testing, rollout and writing
+    documentation."
+  - "I find joy in collaborating with others and working in team environments, to find and build
+    solutions collectivly. In my spare time, I indulge my passion for software development by
+    tackling on my own small projects and love to learn and master new skills."
 skills:
   major:
   - name: Java
