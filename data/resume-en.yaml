@@ -40,7 +40,7 @@ skills:
   - name: SOA / Microservices
     refs: [red, grey]
     progress: 60
-  - name: HTML & CSS / SASS
+  - name: HTML & CSS
     refs: [red, orange, grey]
     progress: 80
   - name: JavaScript / ES
@@ -67,8 +67,6 @@ skills:
     refs: [red, grey]
   - name: Docker
     refs: [red, grey]
-  - name: Jenkins
-    refs: [red]
   - name: Jira
     refs: [red]
   - name: Maven
@@ -87,7 +85,7 @@ skills:
     refs: [red]
   - name: OpenAPI Specification
     refs: [red, grey]
-  - name: MySQL
+  - name: MySQL/MariaDB
     refs: [red, grey]
   - name: SQLite
     refs: [red, grey]
@@ -101,9 +99,11 @@ skills:
     refs: [red, grey]
   - name: Webpack
     refs: [red, grey]
-  - name: React
+  - name: HTMX
     refs: [grey]
   - name: Vue
+    refs: [grey]
+  - name: React
     refs: [grey]
   - name: Bootstrap
     refs: [grey]
